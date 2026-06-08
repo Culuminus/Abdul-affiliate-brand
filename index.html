@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" type="image/png" href="icon.jpeg">
+
+<meta name="description" content="Join The Grown Academy and learn affiliate marketing, Facebook ads, automation, design, and online business strategies from scratch. Get expert mentorship, proven templates, and exclusive bonuses to help you start making money online.">
+
+<title>The Grown Academy</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f7fbff;
+    color:#222;
+    line-height:1.7;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.hero{
+    background:linear-gradient(135deg,#0057ff,#008cff);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero-image{
+    width:100%;
+    max-width:700px;
+    height:350px;
+    background:rgba(255,255,255,.15);
+    border:2px dashed rgba(255,255,255,.4);
+    border-radius:20px;
+    margin:30px auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+}
+
+.hero h1{
+    font-size:2.5rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.1rem;
+    max-width:800px;
+    margin:auto;
+}
+
+.cta-btn{
+    display:inline-block;
+    background:#ffb400;
+    color:#000;
+    padding:18px 40px;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:12px;
+    text-decoration:none;
+    margin-top:30px;
+    transition:.3s;
+}
+
+.cta-btn:hover{
+    transform:translateY(-3px);
+}
+
+.section{
+    padding:70px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2rem;
+    color:#0057ff;
+    margin-bottom:40px;
+}
+
+.learn-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:#0057ff;
+    margin-bottom:10px;
+}
+
+.steps{
+    display:grid;
+    gap:20px;
+}
+
+.step{
+    background:white;
+    padding:25px;
+    border-left:5px solid #0057ff;
+    border-radius:10px;
+}
+
+.price-box{
+    background:#0057ff;
+    color:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.old-price{
+    text-decoration:line-through;
+    opacity:.7;
+    font-size:24px;
+}
+
+.new-price{
+    font-size:60px;
+    font-weight:bold;
+    color:#ffcc00;
+}
+
+.bonus{
+    background:white;
+    border:3px solid #ffb400;
+    padding:30px;
+    border-radius:20px;
+    margin-top:30px;
+}
+
+.countdown{
+    font-size:40px;
+    font-weight:bold;
+    color:#ff3333;
+    text-align:center;
+    margin-top:20px;
+}
+
+.warning{
+    background:#fff4e5;
+    border-left:5px solid orange;
+    padding:20px;
+    margin:30px 0;
+    border-radius:10px;
+    color: black;
+}
+
+footer{
+    background:#0d1b3d;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .new-price{
+        font-size:45px;
+    }
+
+    .cta-btn{
+        width:100%;
+    }
+}
+
+
+
+/* Landing Page Service Section */
+
+.landing-page-service{
+    background:#fff;
+    padding:40px 25px;
+    margin:60px auto;
+    max-width:900px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+}
+
+.service-image{
+    width:100%;
+    max-width:750px;
+    display:block;
+    margin:0 auto 25px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+}
+
+.landing-page-service h2{
+    font-size:2rem;
+    color:#0057ff;
+    margin-bottom:15px;
+    font-weight:700;
+}
+
+.landing-page-service p{
+    font-size:1.05rem;
+    color:#555;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.landing-page-service ul{
+    list-style:none;
+    padding:0;
+    margin:0 0 30px;
+}
+
+.landing-page-service ul li{
+    background:#f5f9ff;
+    margin:10px 0;
+    padding:14px;
+    border-radius:10px;
+    color:#333;
+    font-weight:500;
+}
+
+.landing-page-service .cta-btn{
+    display:inline-block;
+    background:linear-gradient(135deg,#0057ff,#008cff);
+    color:#fff;
+    text-decoration:none;
+    padding:16px 35px;
+    border-radius:12px;
+    font-size:1.1rem;
+    font-weight:700;
+    transition:0.3s ease;
+    box-shadow:0 8px 20px rgba(0,87,255,.25);
+}
+
+.landing-page-service .cta-btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(0,87,255,.35);
+}
+
+@media (max-width:768px){
+
+    .landing-page-service{
+        padding:30px 20px;
+        margin:40px 15px;
+    }
+
+    .landing-page-service h2{
+        font-size:1.6rem;
+    }
+
+    .landing-page-service p{
+        font-size:1rem;
+    }
+
+    .landing-page-service .cta-btn{
+        width:100%;
+        padding:18px;
+    }
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div class="container">
+
+<h1>Start Making Money Online With The Grown Academy</h1>
+
+<p>
+I once trended on Twitter (X) after making ₦2.6 Million in a single day after returning from Ghana.
+The truth is, online income isn't fixed. You never know what you might wake up to because your earnings can grow beyond your expectations.
+</p>
+
+<div class="hero-image">
+    <img class="hero-image" src="hispic.png" alt=""></img>
+</div>
+
+<div class="warning">
+⚠ Don't Wait... The Best Time To Start Was Yesterday. The Next Best Time Is NOW.
+</div>
+
+<a href="https://selar.com/p/k4gk?affiliate=i2pi" class="cta-btn">
+I'M READY TO JOIN THE GROWN ACADEMY
+</a>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<h2 class="section-title">What You'll Learn</h2>
+
+<div class="learn-grid">
+
+<div class="card">
+<h3>💰 Affiliate Marketing</h3>
+<p>Complete beginner guide to affiliate marketing from scratch.</p>
+</div>
+
+<div class="card">
+<h3>🎯 Product Selection</h3>
+<p>How to find winning products and profitable companies.</p>
+</div>
+
+<div class="card">
+<h3>📱 Facebook & Instagram Ads</h3>
+<p>Run professional ads and close sales like a pro.</p>
+</div>
+
+<div class="card">
+<h3>🎨 Design Training</h3>
+<p>Create professional adverts even with zero design experience.</p>
+</div>
+
+<div class="card">
+<h3>🤖 Automation Systems</h3>
+<p>Build systems that generate results even while you're offline.</p>
+</div>
+
+<div class="card">
+<h3>📝 Copy & Paste Templates</h3>
+<p>Ready-made templates to help you make your first ₦200k.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<h2 class="section-title">Step-By-Step Success Plan</h2>
+
+<div class="steps">
+
+<div class="step">
+<strong>Step 1:</strong> Learn Affiliate Marketing From Scratch.
+</div>
+
+<div class="step">
+<strong>Step 2:</strong> Discover High-Converting Products.
+</div>
+
+<div class="step">
+<strong>Step 3:</strong> Launch Facebook & Instagram Ads.
+</div>
+
+<div class="step">
+<strong>Step 4:</strong> Use Professional Designs To Attract Buyers.
+</div>
+
+<div class="step">
+<strong>Step 5:</strong> Automate Your Business For Consistent Sales.
+</div>
+
+<div class="step">
+<strong>Step 6:</strong> Follow Proven Templates And Scale.
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section class="section">
+<div class="container">
+
+<h2 class="section-title">Everything You Get Today</h2>
+
+<div class="card">
+<ul>
+<li>Affiliate Marketing Training — ₦40,000</li>
+<li>Product Selection Guide — ₦37,000</li>
+<li>Facebook & Instagram Ads Module — ₦100,000</li>
+<li>Professional Design Training — ₦63,000</li>
+<li>Automation Training — ₦70,000</li>
+<li>Copy & Paste Templates — ₦30,000</li>
+<li>VIP Community Access — ₦90,000</li>
+<li>Direct Mentorship & Coaching — Priceless</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<div class="price-box">
+
+<h2>Total Value</h2>
+
+<p class="old-price">₦500,000</p>
+
+<p>
+Most students have been paying:
+</p>
+
+<p class="old-price">₦150,000</p>
+
+<h3>Today Only</h3>
+
+<div class="new-price">
+₦50,000
+</div>
+
+<p>
+Because you've stayed till this point, you're getting an extra ₦100,000 discount.
+</p>
+
+<a href="https://selar.com/p/k4gk?affiliate=i2pi" class="cta-btn">
+CLAIM YOUR DISCOUNT NOW
+</a>
+
+</div>
+
+<div class="bonus">
+
+<h2>🎁 FREE BONUS</h2>
+
+<p>
+You'll also receive the premium audio training:
+</p>
+
+<h3>"HOW TO MAKE YOUR FIRST MILLION ONLINE"</h3>
+
+<p>
+Normally sold for ₦15,000.
+</p>
+
+<p>
+Learn the exact strategy used by the creator and many students to make their first million online.
+</p>
+
+<p><strong>FREE When You Join Today.</strong></p>
+
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<h2 class="section-title">Price Returns To ₦150,000 In</h2>
+
+<div class="countdown" id="countdown">
+00:00:00
+</div>
+
+<div style="text-align:center;margin-top:30px;">
+
+<a href="https://selar.com/p/k4gk?affiliate=i2pi" class="cta-btn">
+I'M READY TO JOIN ON DISCOUNT
+</a>
+
+</div>
+
+</div>
+</section>
+
+
+
+
+
+
+<!-- Landing Page Service Advertisement -->
+
+<section class="landing-page-service">
+
+    <img src="landing page.png" alt="Landing Page Preview" class="service-image">
+
+    <h2>Need a Professional Landing Page?</h2>
+
+    <p>
+        Want a high-converting landing page designed to help you generate
+        more leads, sales, and commissions? Get a professionally built,
+        mobile-friendly landing page tailored to your business.
+    </p>
+
+    <ul>
+        <li>✔ Modern & Professional Design</li>
+        <li>✔ Mobile Responsive</li>
+        <li>✔ Fast Loading Speed</li>
+        <li>✔ Conversion Focused Layout</li>
+        <li>✔ Perfect For Affiliate Marketing</li>
+    </ul>
+
+    <a href="https://comepty-official.github.io/Comepty-Portfolio/contact.html" class="cta-btn">
+        Get Your Landing Page
+    </a>
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+<h2>Congratulations On Making A Life-Changing Decision</h2>
+
+<p>
+Your dream of earning online is closer than you think.
+Let's make it happen together.
+</p>
+
+</footer>
+
+<script>
+let time = 86400;
+
+function updateTimer() {
+let hours = Math.floor(time / 3600);
+let minutes = Math.floor((time % 3600) / 60);
+let seconds = time % 60;
+
+document.getElementById("countdown").innerHTML =
+String(hours).padStart(2,'0') + ":" +
+String(minutes).padStart(2,'0') + ":" +
+String(seconds).padStart(2,'0');
+
+if(time > 0){
+time--;
+}
+}
+
+setInterval(updateTimer,1000);
+updateTimer();
+</script>
+
+</body>
+</html>
