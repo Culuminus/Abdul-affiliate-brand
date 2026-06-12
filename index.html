@@ -1,566 +1,583 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A.M.S.S sales page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="style.css.css">
+  </head>
+  <body>
+      
+      
+      
+      
+      
+      
+      
+      
+    <header class="header">
+        
+        
+<div class="developer-card">
 
-<link rel="icon" type="image/png" href="icon.jpeg">
+    <div class="developer-profile">
 
-<meta name="description" content="Join The Grown Academy and learn affiliate marketing, Facebook ads, automation, design, and online business strategies from scratch. Get expert mentorship, proven templates, and exclusive bonuses to help you start making money online.">
+        <img src="images/abdul-rahmon.jpg" alt="Abdul Rahmon Yakub">
 
-<title>The Grown Academy</title>
+        <div class="developer-info">
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
+            <span class="developer-badge">
+                Young Entrepreneur
+            </span>
 
-body{
-    background:#f7fbff;
-    color:#222;
-    line-height:1.7;
-}
+            <h3>ABDUL RAHMON YAKUB</h3>
 
-.container{
-    width:90%;
-    max-width:1100px;
-    margin:auto;
-}
+            <p>
+                I'm a 17-year-old entrepreneur, web developer, and affiliate
+                marketer passionate about building digital businesses that create
+                real value. My goal is to grow a successful online brand, help
+                businesses establish a strong web presence, and continue learning
+                new skills that push me closer to financial independence.
 
-.hero{
-    background:linear-gradient(135deg,#0057ff,#008cff);
-    color:white;
-    text-align:center;
-    padding:80px 20px;
-}
+                Through web development, affiliate marketing, and digital
+                entrepreneurship, I am committed to creating opportunities,
+                solving problems, and building projects that can impact people
+                around the world.
+            </p>
 
-.hero-image{
-    width:100%;
-    max-width:700px;
-    height:350px;
-    background:rgba(255,255,255,.15);
-    border:2px dashed rgba(255,255,255,.4);
-    border-radius:20px;
-    margin:30px auto;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:20px;
-}
+        </div>
 
-.hero h1{
-    font-size:2.5rem;
-    margin-bottom:20px;
-}
+    </div>
 
-.hero p{
-    font-size:1.1rem;
-    max-width:800px;
-    margin:auto;
-}
+    <div class="next-section-preview">
 
-.cta-btn{
-    display:inline-block;
-    background:#ffb400;
-    color:#000;
-    padding:18px 40px;
-    font-weight:bold;
-    font-size:20px;
-    border-radius:12px;
-    text-decoration:none;
-    margin-top:30px;
-    transition:.3s;
-}
+        <span>UP NEXT</span>
 
-.cta-btn:hover{
-    transform:translateY(-3px);
-}
-
-.section{
-    padding:70px 0;
-}
-
-.section-title{
-    text-align:center;
-    font-size:2rem;
-    color:#0057ff;
-    margin-bottom:40px;
-}
-
-.learn-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
-}
-
-.card{
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-}
-
-.card h3{
-    color:#0057ff;
-    margin-bottom:10px;
-}
-
-.steps{
-    display:grid;
-    gap:20px;
-}
-
-.step{
-    background:white;
-    padding:25px;
-    border-left:5px solid #0057ff;
-    border-radius:10px;
-}
-
-.price-box{
-    background:#0057ff;
-    color:white;
-    padding:40px;
-    border-radius:20px;
-    text-align:center;
-}
-
-.old-price{
-    text-decoration:line-through;
-    opacity:.7;
-    font-size:24px;
-}
-
-.new-price{
-    font-size:60px;
-    font-weight:bold;
-    color:#ffcc00;
-}
-
-.bonus{
-    background:white;
-    border:3px solid #ffb400;
-    padding:30px;
-    border-radius:20px;
-    margin-top:30px;
-}
-
-.countdown{
-    font-size:40px;
-    font-weight:bold;
-    color:#ff3333;
-    text-align:center;
-    margin-top:20px;
-}
-
-.warning{
-    background:#fff4e5;
-    border-left:5px solid orange;
-    padding:20px;
-    margin:30px 0;
-    border-radius:10px;
-    color: black;
-}
-
-footer{
-    background:#0d1b3d;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
-}
-
-@media(max-width:768px){
-    .hero h1{
-        font-size:2rem;
-    }
-
-    .new-price{
-        font-size:45px;
-    }
-
-    .cta-btn{
-        width:100%;
-    }
-}
+        <h4>
+            Meet The Top Affiliate Marketer Leading The Race In Modern Affiliate Marketing
+          
+        </h4>
 
 
-
-/* Landing Page Service Section */
-
-.landing-page-service{
-    background:#fff;
-    padding:40px 25px;
-    margin:60px auto;
-    max-width:900px;
-    border-radius:20px;
-    text-align:center;
-    box-shadow:0 10px 35px rgba(0,0,0,.08);
-}
-
-.service-image{
-    width:100%;
-    max-width:750px;
-    display:block;
-    margin:0 auto 25px;
-    border-radius:15px;
-    box-shadow:0 8px 25px rgba(0,0,0,.12);
-}
-
-.landing-page-service h2{
-    font-size:2rem;
-    color:#0057ff;
-    margin-bottom:15px;
-    font-weight:700;
-}
-
-.landing-page-service p{
-    font-size:1.05rem;
-    color:#555;
-    line-height:1.8;
-    margin-bottom:25px;
-}
-
-.landing-page-service ul{
-    list-style:none;
-    padding:0;
-    margin:0 0 30px;
-}
-
-.landing-page-service ul li{
-    background:#f5f9ff;
-    margin:10px 0;
-    padding:14px;
-    border-radius:10px;
-    color:#333;
-    font-weight:500;
-}
-
-.landing-page-service .cta-btn{
-    display:inline-block;
-    background:linear-gradient(135deg,#0057ff,#008cff);
-    color:#fff;
-    text-decoration:none;
-    padding:16px 35px;
-    border-radius:12px;
-    font-size:1.1rem;
-    font-weight:700;
-    transition:0.3s ease;
-    box-shadow:0 8px 20px rgba(0,87,255,.25);
-}
-
-.landing-page-service .cta-btn:hover{
-    transform:translateY(-4px);
-    box-shadow:0 12px 30px rgba(0,87,255,.35);
-}
-
-@media (max-width:768px){
-
-    .landing-page-service{
-        padding:30px 20px;
-        margin:40px 15px;
-    }
-
-    .landing-page-service h2{
-        font-size:1.6rem;
-    }
-
-    .landing-page-service p{
-        font-size:1rem;
-    }
-
-    .landing-page-service .cta-btn{
-        width:100%;
-        padding:18px;
-    }
-}
-</style>
-</head>
-<body>
-
-<section class="hero">
-<div class="container">
-
-<h1>Start Making Money Online With The Grown Academy</h1>
-
-<p>
-I once trended on Twitter (X) after making ₦2.6 Million in a single day after returning from Ghana.
-The truth is, online income isn't fixed. You never know what you might wake up to because your earnings can grow beyond your expectations.
-</p>
-
-<div class="hero-image">
-    <img class="hero-image" src="hispic.png" alt=""></img>
+<div class="coach-tag">
+    Coach Victor Nathel
 </div>
 
-<div class="warning">
-⚠ Don't Wait... The Best Time To Start Was Yesterday. The Next Best Time Is NOW.
-</div>
 
-<a href="https://selar.com/p/k4gk?affiliate=i2pi" class="cta-btn">
-I'M READY TO JOIN THE GROWN ACADEMY
-</a>
-
-</div>
-</section>
-
-<section class="section">
-<div class="container">
-
-<h2 class="section-title">What You'll Learn</h2>
-
-<div class="learn-grid">
-
-<div class="card">
-<h3>💰 Affiliate Marketing</h3>
-<p>Complete beginner guide to affiliate marketing from scratch.</p>
-</div>
-
-<div class="card">
-<h3>🎯 Product Selection</h3>
-<p>How to find winning products and profitable companies.</p>
-</div>
-
-<div class="card">
-<h3>📱 Facebook & Instagram Ads</h3>
-<p>Run professional ads and close sales like a pro.</p>
-</div>
-
-<div class="card">
-<h3>🎨 Design Training</h3>
-<p>Create professional adverts even with zero design experience.</p>
-</div>
-
-<div class="card">
-<h3>🤖 Automation Systems</h3>
-<p>Build systems that generate results even while you're offline.</p>
-</div>
-
-<div class="card">
-<h3>📝 Copy & Paste Templates</h3>
-<p>Ready-made templates to help you make your first ₦200k.</p>
-</div>
+    </div>
 
 </div>
 
-</div>
-</section>
+        
+        
+        
+        
+      <div class="wrapper">
+<div class="wrapper">
+    <h1 class="title">
+        Discover The Affiliate Marketing System That Changed Victor Nathel's Life
+        — And Learn How You Can Apply The Same Principles To Build Your Own Online Income Stream
+    </h1>
 
-<section class="section">
-<div class="container">
+    <p class="sub-title">
+        Welcome! My name is Abdul Rahmon Yakub, a young entrepreneur passionate
+        about online business and digital opportunities. While searching for
+        proven ways to succeed online, I came across Victor Nathel's affiliate
+        marketing journey and was inspired by the results he achieved.
 
-<h2 class="section-title">Step-By-Step Success Plan</h2>
-
-<div class="steps">
-
-<div class="step">
-<strong>Step 1:</strong> Learn Affiliate Marketing From Scratch.
-</div>
-
-<div class="step">
-<strong>Step 2:</strong> Discover High-Converting Products.
-</div>
-
-<div class="step">
-<strong>Step 3:</strong> Launch Facebook & Instagram Ads.
-</div>
-
-<div class="step">
-<strong>Step 4:</strong> Use Professional Designs To Attract Buyers.
-</div>
-
-<div class="step">
-<strong>Step 5:</strong> Automate Your Business For Consistent Sales.
-</div>
-
-<div class="step">
-<strong>Step 6:</strong> Follow Proven Templates And Scale.
-</div>
-
-</div>
-
-</div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-<section class="section">
-<div class="container">
-
-<h2 class="section-title">Everything You Get Today</h2>
-
-<div class="card">
-<ul>
-<li>Affiliate Marketing Training — ₦40,000</li>
-<li>Product Selection Guide — ₦37,000</li>
-<li>Facebook & Instagram Ads Module — ₦100,000</li>
-<li>Professional Design Training — ₦63,000</li>
-<li>Automation Training — ₦70,000</li>
-<li>Copy & Paste Templates — ₦30,000</li>
-<li>VIP Community Access — ₦90,000</li>
-<li>Direct Mentorship & Coaching — Priceless</li>
-</ul>
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="container">
-
-<div class="price-box">
-
-<h2>Total Value</h2>
-
-<p class="old-price">₦500,000</p>
-
-<p>
-Most students have been paying:
-</p>
-
-<p class="old-price">₦150,000</p>
-
-<h3>Today Only</h3>
-
-<div class="new-price">
-₦50,000
-</div>
-
-<p>
-Because you've stayed till this point, you're getting an extra ₦100,000 discount.
-</p>
-
-<a href="https://selar.com/p/k4gk?affiliate=i2pi" class="cta-btn">
-CLAIM YOUR DISCOUNT NOW
-</a>
-
-</div>
-
-<div class="bonus">
-
-<h2>🎁 FREE BONUS</h2>
-
-<p>
-You'll also receive the premium audio training:
-</p>
-
-<h3>"HOW TO MAKE YOUR FIRST MILLION ONLINE"</h3>
-
-<p>
-Normally sold for ₦15,000.
-</p>
-
-<p>
-Learn the exact strategy used by the creator and many students to make their first million online.
-</p>
-
-<p><strong>FREE When You Join Today.</strong></p>
-
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="container">
-
-<h2 class="section-title">Price Returns To ₦150,000 In</h2>
-
-<div class="countdown" id="countdown">
-00:00:00
-</div>
-
-<div style="text-align:center;margin-top:30px;">
-
-<a href="https://selar.com/p/k4gk?affiliate=i2pi" class="cta-btn">
-I'M READY TO JOIN ON DISCOUNT
-</a>
-
-</div>
-
-</div>
-</section>
-
-
-
-
-
-
-<!-- Landing Page Service Advertisement -->
-
-<section class="landing-page-service">
-
-    <img src="landing page.png" alt="Landing Page Preview" class="service-image">
-
-    <h2>Need a Professional Landing Page?</h2>
-
-    <p>
-        Want a high-converting landing page designed to help you generate
-        more leads, sales, and commissions? Get a professionally built,
-        mobile-friendly landing page tailored to your business.
+        This page was created to share his story, his strategies, and the
+        opportunities available through Grown Academy. Take your time to explore
+        the information, learn from his experience, and discover how affiliate
+        marketing could become a valuable skill for your future.
     </p>
 
-    <ul>
-        <li>✔ Modern & Professional Design</li>
-        <li>✔ Mobile Responsive</li>
-        <li>✔ Fast Loading Speed</li>
-        <li>✔ Conversion Focused Layout</li>
-        <li>✔ Perfect For Affiliate Marketing</li>
-    </ul>
-
-    <a href="https://comepty-official.github.io/Comepty-Portfolio/contact.html" class="cta-btn">
-        Get Your Landing Page
+     
+     
+     <div class="btn-container">
+    <a href="testimonials.html" class="btn btn-normal">
+        View Student Testimonials
     </a>
+</div>   
+       
+
+        <div class="btn-container">
+          <a href="https://selar.com/p/k4gk?affiliate=i2pi" class="btn btn-normal">
+            I'm ready to get started</a
+          >
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <main class="main">
+        <section class="section_one">
+            
+            
+            
+            
+ <h2>What Is Affiliate Marketing?</h2> <p> If you're new to making money online, affiliate marketing is one of the easiest business models to understand and get started with. The idea is simple: you promote products or services created by other people, and when someone purchases through your unique referral link, you earn a commission. </p> <p> What caught my attention about affiliate marketing is that you don't need to create your own product, handle customer support, manage inventory, or worry about shipping. Your main focus is learning how to connect the right products with the right audience. </p> <p>What You'll Learn In This Training</p> <p> As I explored Victor Nathel's training, I found that it was designed to help complete beginners understand the affiliate marketing business from the ground up and develop skills that can be used to build a real online income stream. </p> <p>Inside this training, you'll learn:</p> <ul> <li>How affiliate marketing works and why many beginners struggle to succeed</li> <li>How to identify profitable niches and products with strong demand</li> <li>How to attract visitors to your affiliate offers using both free and paid traffic methods</li> <li>How sales funnels work and how they help convert visitors into customers</li> <li>Growth and scaling strategies used by experienced affiliate marketers</li> <li>How to create professional graphics and high-converting landing pages</li> <li>How to build a strong social media presence and grow an audience online</li> </ul> 
+        </section>
+
+        <!-- section one ends -->
+<section class="section_two">
+
+    <h2>Who Is Victor Nathel?</h2>
+
+    <p>
+        If you've spent time researching affiliate marketing in Nigeria,
+        there's a good chance you've come across the name Victor Nathel.
+        Curious about his story, I decided to learn more about his journey and
+        how he built his online business.
+    </p>
+
+    <p>
+        Victor Nathel, whose full name is Nwosu Victor, is a Nigerian
+        entrepreneur and the founder of Grown Academy. He is widely known for
+        teaching affiliate marketing and sharing strategies that help beginners
+        understand how online income systems work.
+    </p>
+
+    <p>
+        What I found most interesting wasn't where he is today, but where he
+        started. Like many successful entrepreneurs, his journey wasn't easy.
+        Before affiliate marketing, he faced financial struggles and worked
+        different jobs while trying to improve his situation.
+    </p>
+
+    <p>
+        The images below show part of his early journey and the challenges he
+        experienced before discovering affiliate marketing.
+    </p>
+    
+    
+          <p>
+            You can see what his life looked like back in 2021 when he was a
+            struggling painter
+          </p>
+          <div class="image-wrapper">
+            <img src="images/Nathel_broke.jpg" alt="Nathel painting" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Nathel_broke_2.jpg" alt="Nathel painting" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Nathel_broke_3.JPG" alt="Nathel painting" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Nathel_broke_4.jpg" alt="Nathel painting" />
+          </div>
+          
+<p>
+    One of the most inspiring parts of Victor Nathel's story is how affiliate
+    marketing became the turning point that changed his life in 2022.
+</p>
+
+<p>
+    From what I've learned, he started his affiliate marketing journey with a
+    loan of ₦60,000. It was a major risk because there were no guarantees, but
+    he was willing to take a chance on learning a new skill and building a
+    better future for himself.
+</p>
+
+<p>
+    The images below show the results of that decision and how one bold step
+    eventually transformed his life and created opportunities he once only
+    dreamed about.
+</p>
+          <div class="image-wrapper">
+            <img src="images/Nathel_make-am.jpg" alt="Victor Nathel" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Nathel_make-am_2.jpg" alt="Victor Nathel" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Nathel_make-am_3.jpg" alt="Victor Nathel" />
+          </div>
+          <div class="btn-container">
+            <a href="https://selar.com/p/k4gk?affiliate=i2pi" class="btn btn-normal">
+              I'm ready to get started</a
+            >
+          </div>
+
+          <p>
+            He no longer go to work, as you can see his vacation pictures below
+            when he traveled to Qatar and Turkey in different occasions and also
+            visited Accra Ghana few months later
+          </p>
+
+          <div class="image-wrapper">
+            <img src="images/Nathel_make-am_4.jpg" alt="Victor Nathel" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Nathel_make-am_5.jpg" alt="Victor Nathel" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Nathel_make-am 6.jpg" alt="Victor Nathel" />
+          </div>
+<p> One thing I noticed while learning about Victor Nathel's journey is that affiliate marketing didn't just increase his income—it also gave him more freedom over his time and lifestyle. Through the business, he has been able to work more flexibly and travel to different places while continuing to grow his online income. </p>
+ <p> As his success grew, Victor began sharing what he had learned with friends, family members, and people close to him who were also looking for better opportunities. </p> 
+<p> What started as helping a few people eventually grew into a much bigger mission. More students began learning from him, applying the strategies, and sharing their own success stories. </p> 
+<p> As the results continued to spread, Victor's training programs gained more attention, leading to invitations to speak at events, seminars, churches, and other platforms where he could share his experience with larger audiences. </p> 
+<p> Today, Victor Nathel is known for helping thousands of people learn affiliate marketing and discover new ways to create income online. </p>
+ <p> One example that stood out to me is MaryJoan, whose story demonstrates how learning a new skill can completely change someone's financial situation. </p> 
+          <div class="image-wrapper">
+            <img src="images/maryjoan_broke.jpg" alt="MaryJoan" />
+          </div>
+          
+          
+          
+<p>
+    Before discovering affiliate marketing, MaryJoan worked in a fast-food job
+    earning a modest monthly income. Like many people, she wanted something
+    more but wasn't sure where to begin.
+</p>
+
+<p>
+    According to her story, she eventually came across Victor Nathel's content
+    online and became interested in learning more about affiliate marketing.
+    Although she was initially cautious because of previous experiences she had
+    encountered online, she took time to research, learn about the program, and
+    make an informed decision.
+</p>
+
+<p>
+    After joining and applying what she learned, MaryJoan began seeing results.
+    Her story has since become one of the most well-known success stories shared
+    by Victor Nathel's students, showing what can happen when someone commits to
+    learning and consistently takes action.
+</p>
+
+<p>
+    The result shown below highlights part of her journey and the progress she
+    achieved after getting started.
+</p>
+
+          <div class="image-wrapper">
+            <img
+              src="images/maryjoan_testimony.jpg"
+              alt="MaryJoan's result screenshot"
+            />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/maryjoan_rich.jpg" alt="MaryJoan" />
+          </div>
+          <p>
+            This is the same person on previous picture after she
+            became his student
+          </p>
+          <p>Maryjoan’s testimony is just one amongst many</p>
+          <div class="btn-container">
+            <a href="https://selar.com/p/k4gk?affiliate=i2pi" class="btn btn-normal">
+              I'm ready to get started</a
+            >
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Dorcas_testimony.jpg" alt="Dorcas' testimony" />
+          </div>
+          <p>
+            Should we talk about Dorcas Opeyemi who was a class teacher earning
+            N20,000 monthly for compete 5 years and nothing to show for it? Look
+            up and see her results for joining his academy
+          </p>
+          <p>Almost N3 million naira in less than 5 months</p>
+          <div class="image-wrapper">
+            <img
+              src="images/moses_testimony.jpg"
+              alt="Moses' result screenshot"
+            />
+          </div>
+          
+          
+          
+          
+<p>
+    Another story that caught my attention was Moses's. His journey is a
+    reminder that opportunities can come from unexpected places and that a
+    person's starting point does not determine their future.
+</p>
+
+<p>
+    From what I've learned, Moses faced significant challenges before
+    discovering affiliate marketing. Yet after joining the academy and learning
+    the skills being taught, his situation began to change, making his story
+    one of the many inspiring testimonials shared by students.
+</p>
+
+<p>
+    What stands out to me is that these stories come from people with different
+    backgrounds, experiences, and circumstances. Despite their differences,
+    they all decided to take action and learn something new.
+</p>
+
+<p>
+    There are many more student success stories that could be shared, but these
+    examples provide a glimpse into why so many people have become interested
+    in Victor Nathel's training and the opportunities available through
+    affiliate marketing.
+</p>
 
 </section>
 
+        <!-- section two ends -->
+        <section class="section_three">
+          <h2>Why This Course Is Different !!!</h2>
+          <p>This isn’t just theory, it’s a complete practical guide</p>
+          <p>You’ll get:</p>
+          <div class="container">
+            <div class="icon">📹</div>
+            <p class="border-steps">Step-by-step video lessons</p>
+          </div>
 
+          <div class="container">
+            <div class="icon">🧩</div>
+            <p class="border-steps">Plug-and-play funnel templates</p>
+          </div>
+          <div class="container">
+            <div class="icon">📈</div>
+            <p class="border-steps">Real-world examples and case studies</p>
+          </div>
+          <div class="container">
+            <div class="icon">💬</div>
+            <p class="border-steps">Access to a private support group</p>
+          </div>
+          <div class="container">
+            <div class="icon">💼</div>
+            <p class="border-steps">
+              Tools & strategies used by top affiliates
+            </p>
+          </div>
+          <p class="bold">You’ll Be Getting</p>
+          <ul>
+            <li>
+              Your own affiliate funnel ready to start generating leads and
+              sales
+            </li>
+            <li>A complete marketing system that runs on autopilot</li>
+            <li>The knowledge to scale to $500-$750/month and beyond</li>
+          </ul>
+          <div class="enroll-box">
+            <p>💰 Join Today & Get Instant Access</p>
+            <p>
+              🎁 LIMITED-TIME BONUS: Enroll now and get lifetime access, private
+              community support, AND a personal coaching from Coach Nathel.
+            </p>
+            <div class="btn-container">
+              <a href="https://selar.com/p/k4gk?affiliate=i2pi" class="btn btn-normal">
+                I'm ready to get started</a
+              >
+            </div>
+          </div>
 
-
-
-
-
-<footer>
-
-<h2>Congratulations On Making A Life-Changing Decision</h2>
+          <p>
+            Here are some of my payouts from affiliate marketing and just
+            imagine yourself making these figures working from
+            home as an affiliate
+          </p>
+          <div class="image-wrapper">
+            <img src="images/Nathel_earnings_1.jpg" alt="" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Nathel_earnings_2.jpg" alt="" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/Nathel_earnings_3.jpg" alt="" />
+          </div>
+          <div class="image-wrapper">
+            <img src="images/nathel_earnings_4.jpg" alt="" />
+          </div>
+ 
+ 
+ 
+ <p>
+    One of the moments that really caught my attention while researching Victor
+    Nathel's journey was when he reportedly gained widespread attention on X
+    (formerly Twitter) after sharing a result of ₦2.6 million earned in a
+    single day.
+</p>
 
 <p>
-Your dream of earning online is closer than you think.
-Let's make it happen together.
+    According to his story, this happened shortly after returning from a trip,
+    and the achievement sparked conversations across social media as many
+    people were surprised by the result.
 </p>
+
+<p>
+    Whether you're completely new to affiliate marketing or already familiar
+    with online business, moments like these help explain why Victor Nathel's
+    journey has attracted the interest of thousands of people looking to learn
+    more about affiliate marketing and digital entrepreneurship.
+</p>
+ 
+          <div class="image-wrapper">
+            <img src="images/Nathel_earnings_record.jpg" alt="" />
+          </div>
+          <p>
+            This is the possibility of making money online, you can never tell
+            what you might wake to meet because your earnings are
+            random and not static
+          </p>
+          <p>
+            ⚠ Don’t Wait… The Best Time to Start Was Yesterday. The Next Best
+            Time Is NOW.
+          </p>
+          <div class="btn-container">
+            <a href="https://selar.com/p/k4gk?affiliate=i2pi" class="btn btn-normal">
+              I'm ready to join the grown academy</a
+            >
+          </div>
+          <p>Your dream of earning online is closer than you think.</p>
+          <p>Let’s make it happen — together.</p>
+        </section>
+        
+        
+        
+        
+        
+<section class="section_four">
+    <h2>What You'll Learn Inside The Training</h2>
+
+    <p>
+        After researching the Grown Academy program, I discovered that students
+        receive access to a complete affiliate marketing system designed to help
+        beginners learn the skills needed to build an online business.
+    </p>
+
+    <ol>
+        <li>
+            A step-by-step guide showing how to start affiliate marketing from
+            scratch, even if you have no previous experience.
+        </li>
+
+        <li>
+            Training on how to identify profitable niches, select quality
+            affiliate programs, and choose products that have strong sales
+            potential.
+        </li>
+
+        <li>
+            Lessons covering Facebook and Instagram advertising strategies,
+            including how to attract potential customers and improve conversion
+            rates.
+        </li>
+
+        <li>
+            Practical design training that teaches students how to create
+            professional promotional materials and marketing assets.
+        </li>
+
+        <li>
+            Automation strategies that can help simplify daily tasks and make
+            business operations more efficient.
+        </li>
+
+        <li>
+            Access to templates, resources, and proven frameworks that students
+            can use as a starting point for their own campaigns.
+        </li>
+
+        <li>
+            Entry into the Grown Academy community where students can connect,
+            learn, and interact with other members.
+        </li>
+
+        <li>
+            Coaching, guidance, and mentorship from Victor Nathel, allowing
+            students to learn directly from someone with real-world experience
+            in affiliate marketing.
+        </li>
+    </ol>
+
+    <p>
+        Students may also receive bonus materials focused on personal branding,
+        webinar strategies, and sales communication techniques.
+    </p>
+
+    <p>
+        One thing I like about the program is that it attempts to cover multiple
+        areas of online business rather than focusing on only one skill.
+        Instead of learning a single strategy, students are introduced to
+        marketing, content creation, advertising, branding, and business
+        growth.
+    </p>
+
+    <p>
+        As with any skill, results depend on factors such as effort,
+        consistency, experience, and market conditions. However, the goal of
+        the training is to provide students with the knowledge, tools, and
+        support needed to begin their affiliate marketing journey.
+    </p>
+
+    <p>
+        If you're interested in learning more about affiliate marketing and
+        exploring the opportunities available through the Grown Academy, you can
+        use the button below to get additional information.
+    </p>
+
+    <div class="btn-container">
+        <a href="https://selar.com/p/k4gk?affiliate=i2pi" class="btn btn-normal">
+            Learn More About The Training
+        </a>
+    </div>
+</section>
+        <div class="enroll-box">
+          <p style="text-align: center;">Price goes back to N150,000 in</p>
+          <div id="countdown">00:00:00</div>
+        </div>
+      
+    </div>
+    
+    <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+            <h3>Grown Academy</h3>
+            <p>
+                Helping ordinary people learn affiliate marketing,
+                build online income streams, and create financial freedom.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+
+            <a href="#top">Home</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="https://selar.com/p/k4gk?affiliate=i2pi">Join Now</a>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Get Started</h4>
+
+            <p>
+                Ready to begin your affiliate marketing journey?
+                Join the training today and start learning.
+            </p>
+
+            <a href="https://selar.com/p/k4gk?affiliate=i2pi" class="footer-btn">
+                Join The Academy
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            © 2026 Grown Academy. All Rights Reserved.
+        </p>
+    </div>
 
 </footer>
 
-<script>
-let time = 86400;
 
-function updateTimer() {
-let hours = Math.floor(time / 3600);
-let minutes = Math.floor((time % 3600) / 60);
-let seconds = time % 60;
 
-document.getElementById("countdown").innerHTML =
-String(hours).padStart(2,'0') + ":" +
-String(minutes).padStart(2,'0') + ":" +
-String(seconds).padStart(2,'0');
-
-if(time > 0){
-time--;
-}
-}
-
-setInterval(updateTimer,1000);
-updateTimer();
-</script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,242 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f4f6fb;
+    color: #222;
+    line-height: 1.5;
+}
+
+/* =========================
+   HERO
+========================= */
+.hero{
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    padding: 16px;
+}
+
+.back-home-container{
+    margin-bottom: 10px;
+}
+
+.back-home-btn{
+    display: inline-block;
+    padding: 10px 14px;
+    background: white;
+    color: #111;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* =========================
+   AFFILIATE PROMO
+========================= */
+.affiliate-promo{
+    margin-top: 12px;
+    padding: 15px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+}
+
+.affiliate-promo h3{
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.affiliate-promo p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.cta-btn{
+    display: inline-block;
+    padding: 10px 14px;
+    background: #22c55e;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container{
+    padding: 15px;
+}
+
+/* =========================
+   TESTIMONIAL CARD
+========================= */
+.testimonial-feed,
+.hidden-testimonials{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.testimonial-card{
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+/* USER */
+.testimonial-user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info h3{
+    font-size: 15px;
+}
+
+.user-info span{
+    font-size: 12px;
+    color: gray;
+}
+
+/* TEXT */
+.testimonial-text p{
+    font-size: 14px;
+}
+
+/* FIX SPACING */
+.testimonial-text{
+    margin-bottom: 10px;
+}
+
+/* =========================
+   ACTIONS
+========================= */
+.testimonial-actions{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.like-btn,
+.reply-btn{
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.like-btn{
+    background: #e2e8f0;
+}
+
+.reply-btn{
+    background: #cbd5e1;
+}
+
+/* =========================
+   LOAD MORE BUTTON
+========================= */
+.load-more-container{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.load-more-btn{
+    width: 100%;
+    max-width: 320px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* =========================
+   HIDDEN TESTIMONIALS
+========================= */
+.hidden-testimonials{
+    display: none;
+}
+
+/* =========================
+   FORM
+========================= */
+.submit-testimonial{
+    padding: 15px;
+}
+
+.submit-testimonial h2{
+    margin-bottom: 10px;
+}
+
+.submit-testimonial form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit-testimonial input,
+.submit-testimonial textarea{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.submit-testimonial button{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #111827;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* =========================
+   CTA SECTION
+========================= */
+.cta-section{
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 20px;
+}
+
+.cta-section p{
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.cta-section a{
+    display: inline-block;
+    margin-top: 12px;
+}
+
+
+.hidden-card {
+    display: none;
+}
